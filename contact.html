@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @keyframes flash {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: green; }
+            75% { color: blue; }
+            100% { color: purple; }
+        }
+        @keyframes flashReverse {
+            0% { color: purple; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: red; }
+        }
+        .flash {
+            animation: flash 2s infinite; 
+        }
+        .flash-reverse {
+            animation: flashReverse 2s infinite; 
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -12,9 +34,11 @@
         <li><a href="resources.html">Resources</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
-    </ul>    
-</body>
+    </ul>
+    
     <h1>Contact Me</h1>
-    <p1>Questions or Comments?</p1>
-    <p2><a href="mailto:scallop2942yummy@gmail.com">Email me here!</a></p2>
+    <p>Questions or Comments?</p>
+    <p><a href="mailto:scallop2942yummy@gmail.com" class="flash-reverse">Email me here!</a></p>
+    <p><a href="tel:+1248-434-5508" class="flash">Call me!</a></p>
+</body>
 </html>
