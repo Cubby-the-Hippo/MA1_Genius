@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Resources</title>
+    <style>
+        @keyframes moveLeftRight {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(50px); }
+            100% { transform: translateX(0); }
+        }
+
+        .move {
+            animation: moveLeftRight 3s ease-in-out infinite;
+        }
+    </style>
 </head>
 <body>
     <ul class="nav">
@@ -18,12 +29,17 @@
         <h1>How do I make a beef wellington?</h1>
         <img src="images/beefwellington.png" alt="Beef Wellington" class="images">
         <a href="https://www.delish.com/cooking/recipe-ideas/a58702/easy-beef-wellington-recipe/" target="_blank">Beef Wellington!</a>
+
         <h1>How do I make Fish and Chips?</h1>
         <img src="images/fishandchips.png.webp" alt="Fish and Chips" class="images">
         <a href="https://www.thespruceeats.com/best-fish-and-chips-recipe-434856" target="_blank">Fish and Chips!</a>
+
         <h1>How do I make Dino Nuggets?</h1>
         <img src="images/dinonuggets.jpg" alt="Dino Nuggets" class="images">
         <a href="https://feedingtinybellies.com/homemade-dino-nuggets/" target="_blank">Dino Nuggets!</a>
+
+        <p class="move">If you made something from that list,</p>
+        <p class="move">You could easily get a few Michelin stars!</p>
     </div>
 </body>
 </html>
