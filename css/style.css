@@ -85,3 +85,41 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
 }
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.chef {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.headshot {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #000; /* Adds border around the image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional for depth */
+}
+
+.chef p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
